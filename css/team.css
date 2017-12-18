@@ -1,0 +1,148 @@
+.team_photo {
+    overflow: hidden;
+    max-width: 300px;
+    max-height: 260px;
+/*    width: 300px;
+    height: 260px;*/
+}
+
+    .team_photo .mask, .team_photo .content {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    .team_photo img {
+        display: block;
+        position: relative;
+    }
+
+    .team_photo h2 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 17px;
+        background: transparent;
+        padding: 10px;
+    }
+
+    .team_photo .mask-1, .team_photo .mask-2 {
+        background-color: rgba(0,0,0,0.5);
+        height: 450px;
+        width: 450px;
+        background: rgba(27,161,226,0.5);
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        filter: alpha(opacity=100);
+        opacity: 1;
+        -webkit-transition: all .3s ease-in-out .6s;
+        -moz-transition: all .3s ease-in-out .6s;
+        -o-transition: all .3s ease-in-out .6s;
+        transition: all .3s ease-in-out .6s;
+    }
+
+    .team_photo .mask-1 {
+        top: -20px;
+        left: auto;
+        right: 0;
+        -webkit-transform: rotate(56.5deg) translateX(-180px);
+        -moz-transform: rotate(56.5deg) translateX(-180px);
+        -o-transform: rotate(56.5deg) translateX(-180px);
+        -ms-transform: rotate(56.5deg) translateX(-180px);
+        transform: rotate(56.5deg) translateX(-180px);
+        -webkit-transform-origin: 100% 0;
+        -moz-transform-origin: 100% 0;
+        -o-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+        transform-origin: 100% 0;
+    }
+
+    .team_photo .mask-2 {
+        top: auto;
+        bottom: -20px;
+        -webkit-transform: rotate(56.5deg) translateX(180px);
+        -moz-transform: rotate(56.5deg) translateX(180px);
+        -o-transform: rotate(56.5deg) translateX(180px);
+        -ms-transform: rotate(56.5deg) translateX(180px);
+        transform: rotate(56.5deg) translateX(180px);
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+    }
+
+    .team_photo .content {
+        background: rgba(0,0,0,0.9);
+        height: 0;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+        filter: alpha(opacity=50);
+        opacity: 0.5;
+        width: 361px;
+        overflow: hidden;
+        -webkit-transform: rotate(-33.5deg) translate(-112px,166px);
+        -moz-transform: rotate(-33.5deg) translate(-112px,166px);
+        -o-transform: rotate(-33.5deg) translate(-112px,166px);
+        -ms-transform: rotate(-33.5deg) translate(-112px,166px);
+        transform: rotate(-33.5deg) translate(-112px,166px);
+        -webkit-transform-origin: 0 100%;
+        -moz-transform-origin: 0 100%;
+        -o-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        -webkit-transition: all .4s ease-in-out .3s;
+        -moz-transition: all .4s ease-in-out .3s;
+        -o-transition: all .4s ease-in-out .3s;
+        transition: all .4s ease-in-out .3s;
+    }
+
+    .team_photo:hover .content {
+        height: 80px;
+        width: 300px;
+        -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        filter: alpha(opacity=80);
+        opacity: 0.8;
+        top: 50%;
+        margin-top: -40px;
+        -webkit-transform: rotate(0deg) translate(0,0);
+        -moz-transform: rotate(0deg) translate(0,0);
+        -o-transform: rotate(0deg) translate(0,0);
+        -ms-transform: rotate(0deg) translate(0,0);
+        transform: rotate(0deg) translate(0,0);
+    }
+
+    .team_photo:hover .mask-1, .team_photo:hover .mask-2 {
+        -webkit-transition-delay: .1s;
+        -moz-transition-delay: .1s;
+        -o-transition-delay: .1s;
+        transition-delay: .1s;
+    }
+
+    .team_photo:hover .mask-1 {
+        top: 0;
+        -webkit-transform: rotate(56.5deg) translateX(1px);
+        -moz-transform: rotate(56.5deg) translateX(1px);
+        -o-transform: rotate(56.5deg) translateX(1px);
+        -ms-transform: rotate(56.5deg) translateX(1px);
+        transform: rotate(56.5deg) translateX(1px);
+    }
+
+    .team_photo:hover .mask-2 {
+        bottom: 0;
+        -webkit-transform: rotate(56.5deg) translateX(-1px);
+        -moz-transform: rotate(56.5deg) translateX(-1px);
+        -o-transform: rotate(56.5deg) translateX(-1px);
+        -ms-transform: rotate(56.5deg) translateX(-1px);
+        transform: rotate(56.5deg) translateX(-1px);
+    }
+
+.mask-1 {
+    right: -40px !important;
+}
+
+.mask-2 {
+    left: -50px !important;
+}
