@@ -640,13 +640,33 @@ Chennai, Tamil Nadu 600119<br />
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="span3"></div>
+                                        <div id="eventbrite-widget-container-41865652293"></div>
+
+                                        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+                                        
+                                        <script type="text/javascript">
+                                            var exampleCallback = function() {
+                                                console.log('Order complete!');
+                                            };
+                                        
+                                            window.EBWidgets.createWidget({
+                                                // Required
+                                                widgetType: 'checkout',
+                                                eventId: '41865652293',
+                                                iframeContainerId: 'eventbrite-widget-container-41865652293',
+                                        
+                                                // Optional
+                                                iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                                onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+                                            });
+                                        </script>
+                                    <!-- <div class="span3"></div>
                                     <div class="span6">
                                         <div class="button dev">
                                             <a href="https://www.meetup.com/Chennai-Microsoft-Azure-User-Group/events/235924294/" target="_new">Register</a>
                                         </div>
                                     </div>
-                                    <div class="span3"></div>
+                                    <div class="span3"></div> -->
                                 </div>
                                 <div class="row">&nbsp;</div>
                                 <div class="row">
