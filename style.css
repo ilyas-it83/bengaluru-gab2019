@@ -1014,7 +1014,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	/* background-image: url("assets/images/register-bg.jpg"); */
+	background-image: url("assets/images/register-bg.jpg"); 
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1038,7 +1038,7 @@ button:focus {
 .mu-register-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 30px 0;
 	width: 100%;
 }
 
@@ -1052,8 +1052,6 @@ button:focus {
 	float: left;
 	width: 100%;
 	text-align: center;
-	padding: 0 200px;
-	margin-top: 50px;
 }
 
 .mu-register-form .form-group {
@@ -1118,7 +1116,7 @@ button:focus {
 .mu-sponsors-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 30px 0;
 	width: 100%;
 }
 
