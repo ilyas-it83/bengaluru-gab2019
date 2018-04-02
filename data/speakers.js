@@ -2,7 +2,8 @@
 
 var keynoteData = {
   speakers: [
-    { name: "To be Announced", imageURL: "assets/images/speakers/default-speaker.png", title: "Cloud Architect, Expert" }
+    { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" },
+    { name: "Sandeep Alur", imageURL: "assets/images/speakers/sandeep.jpeg", title: "Director - Partner Technology Engagements at Microsoft" },
   ]
 };
 

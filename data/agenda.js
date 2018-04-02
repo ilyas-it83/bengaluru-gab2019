@@ -10,7 +10,7 @@ var day1AgendaData={
         { title:"Azure App Service: the best place to host your .NET Apps!", time:"02.00 PM - 02.45 PM"},
         { title:"There is a service for that!", time:"03.00 PM -3.45 PM"},
         { title:"Break", time:"03.45 PM - 04.00 PM"},
-        { title:"TBA", time:"04.00 PM - 04.45 PM"},
+        { title:"Building Planet Scale APIs with Service Fabric",desc:"Azure Service Fabric makes it easy to deploy and manage your microservices on cloud or on-premise. It's the underlying technology used by lot of Azure services as well. We'll cover the basics and I'll squeeze in a demo too", time:"04.00 PM - 04.45 PM"},
         { title:"TBA", time:"05.00 PM - 05.45 PM"},
         { title:"Conclusion", time:"05.45 PM - 06.00 PM"},
     ],
