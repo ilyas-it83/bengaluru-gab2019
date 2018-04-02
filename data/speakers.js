@@ -13,7 +13,8 @@ var featuredSpeakerData = {
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: " " },
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/anoop.jpg", title: "" },
     { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "" },
-    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "" }
+    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "" },
+    { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "" }
   ]
 };
 
