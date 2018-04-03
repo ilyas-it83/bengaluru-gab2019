@@ -9,19 +9,19 @@ var keynoteData = {
 
 var featuredSpeakerData = {
   featuredSpeakers: [
-    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Asp.Net Core Expert" , linkedin:"https://www.linkedin.com/in/anandgothe/", facebook:"https://www.facebook.com/anandgothe", twitter:"https://twitter.com/anandgothe" },
+    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Chief Architect at Prowareness" , linkedin:"https://www.linkedin.com/in/anandgothe/", facebook:"https://www.facebook.com/anandgothe", twitter:"https://twitter.com/anandgothe" },
     { name: "Akilur Rahman", imageURL: "assets/images/speakers/default-speaker.png", title: "Chief Technology Office, ABB" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/Anoop.jpg", title: "ITPro Expert" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/Wriju.jpeg", title: "Azure Solution Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Soource Expert" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Mohit Chabra", imageURL: "assets/images/speakers/default-speaker.png", title: "" , linkedin:"#", facebook:"#", twitter:"#" },
+    { name: "Mohit Chhabra", imageURL: "assets/images/speakers/mohit.jpg", title: "" , linkedin:"https://www.linkedin.com/in/mohitchhabraazure/", facebook:"https://fb.com/mohitmc2", twitter:"https://twitter.com/mohit_techy" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/Nish.jpeg", title: "Xamarin Solution Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Mahesh", imageURL: "assets/images/speakers/default-speaker.png", title: "" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Developer Evangelist" , linkedin:"https://www.linkedin.com/in/swaminathanvetri/", facebook:"https://www.facebook.com/swaminathan.vetri", twitter:"https://twitter.com/svswaminathan" },
-    { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Azure Architect" , linkedin:"https://www.linkedin.com/in/muruganad/", facebook:"https://www.facebook.com/muruganad", twitter:"https://twitter.com/murugan_ad" },
+    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Microsoft MVP/ Lead Engineer JCPenney" , linkedin:"https://www.linkedin.com/in/swaminathanvetri/", facebook:"https://www.facebook.com/swaminathan.vetri", twitter:"https://twitter.com/svswaminathan" },
+    { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Consultant Architect Microsoft Azure & Enterprise Applications" , linkedin:"https://www.linkedin.com/in/muruganad/", facebook:"https://www.facebook.com/muruganad", twitter:"https://twitter.com/murugan_ad" },
     { name: "Vishnu", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Gireesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Sudheesh", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" , linkedin:"#", facebook:"#", twitter:"#" },
