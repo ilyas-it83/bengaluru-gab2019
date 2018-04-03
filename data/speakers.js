@@ -10,7 +10,7 @@ var keynoteData = {
 var featuredSpeakerData = {
   featuredSpeakers: [
     { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Asp.Net Core Expert" },
-    { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/dhami.jpg", title: "ITPro Expert" },
+    { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" },
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/default-speaker.png", title: "Azure Solution Architect" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Soource Expert" },
