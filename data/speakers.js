@@ -10,7 +10,7 @@ var keynoteData = {
 var featuredSpeakerData = {
   featuredSpeakers: [
     { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Chief Architect at Prowareness" , linkedin:"https://www.linkedin.com/in/anandgothe/", facebook:"https://www.facebook.com/anandgothe", twitter:"https://twitter.com/anandgothe" },
-    { name: "Akilur Rahman", imageURL: "assets/images/speakers/default-speaker.png", title: "Chief Technology Office, ABB" , linkedin:"#", facebook:"#", twitter:"#" },
+    { name: "Akilur Rahman", imageURL: "assets/images/speakers/akilur.jpg", title: "Chief Technology Office, ABB" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/Anoop.jpg", title: "ITPro Expert" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" , linkedin:"#", facebook:"#", twitter:"#" },
