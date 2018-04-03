@@ -9,7 +9,7 @@ var keynoteData = {
 
 var featuredSpeakerData = {
   featuredSpeakers: [
-    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Asp.Net Core Expert" },
+    { name: "Anand Gothe", imageURL: "assets/images/speakers/default-speaker.png", title: "Asp.Net Core Expert" },
     { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" },
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/default-speaker.png", title: "Azure Solution Architect" },
@@ -17,16 +17,17 @@ var featuredSpeakerData = {
     { name: "Mohit Chabra", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/default-speaker.png", title: "Xamarin Solution Architect" },
     { name: "Mahesh", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
-    { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" },
-    { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/anoop.jpg", title: "ITPro Expert" },
-    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Developer Evangelist" },
+    { name: "Ilyas", imageURL: "assets/images/speakers/default-speaker.png", title: "IoT Evangelist" },
+    { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
+    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/default-speaker.png", title: "Developer Evangelist" },
     { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Azure Architect" },
     { name: "Vishnu", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
-    { name: "Sudheesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
-    { name: "Rajul", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
-    { name: "Vimal", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
-    { name: "Ajay", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
-    { name: "Adil", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Gireesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Sudheesh", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
+    { name: "Rajul", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
+    { name: "Vimal", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
+    { name: "Ajay", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
+    { name: "Adil", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
     { name: "Vic Parmar", imageURL: "assets/images/speakers/default-speaker.png", title: "IoT Architect" }
   ]
 };
