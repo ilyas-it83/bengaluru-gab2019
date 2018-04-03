@@ -16,7 +16,7 @@ var featuredSpeakerData = {
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/Wriju.jpeg", title: "Azure Solution Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Soource Expert" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Mohit Chhabra", imageURL: "assets/images/speakers/mohit.jpg", title: "" , linkedin:"https://www.linkedin.com/in/mohitchhabraazure/", facebook:"https://fb.com/mohitmc2", twitter:"https://twitter.com/mohit_techy" },
+    { name: "Mohit Chhabra", imageURL: "assets/images/speakers/mohit.jpg", title: "Microsoft Azure MVP/ Senior Software Engineer Harman International" , linkedin:"https://www.linkedin.com/in/mohitchhabraazure/", facebook:"https://fb.com/mohitmc2", twitter:"https://twitter.com/mohit_techy" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/Nish.jpeg", title: "Xamarin Solution Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Mahesh", imageURL: "assets/images/speakers/default-speaker.png", title: "" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" , linkedin:"#", facebook:"#", twitter:"#" },
