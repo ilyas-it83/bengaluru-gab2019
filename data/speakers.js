@@ -20,7 +20,14 @@ var featuredSpeakerData = {
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" },
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/anoop.jpg", title: "ITPro Expert" },
     { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Developer Evangelist" },
-    { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Azure Architect" }
+    { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Azure Architect" },
+    { name: "Vishnu", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Sudheesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Rajul", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Vimal", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Ajay", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Adil", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
+    { name: "Vic Parmar", imageURL: "assets/images/speakers/default-speaker.png", title: "IoT Architect" }
   ]
 };
 
