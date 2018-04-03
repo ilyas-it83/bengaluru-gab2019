@@ -26,6 +26,7 @@ var featuredSpeakerData = {
     { name: "Gireesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
     { name: "Sudheesh", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
     { name: "Rajul", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
+    { name: "Ritesh Modi", imageURL: "assets/images/speakers/Ritesh.jpeg", title: "Cloud Architect" },
     { name: "Vimal", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
     { name: "Ajay", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
     { name: "Adil", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" },
