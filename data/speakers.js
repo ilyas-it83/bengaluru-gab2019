@@ -3,14 +3,15 @@
 var keynoteData = {
   speakers: [
     { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" },
-    { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" },
     { name: "Sandeep Alur", imageURL: "assets/images/speakers/sandeep.jpeg", title: "Director - Partner Technology Engagements at Microsoft" },
   ]
 };
 
 var featuredSpeakerData = {
   featuredSpeakers: [
-    { name: "Anand Gothe", imageURL: "assets/images/speakers/default-speaker.png", title: "Asp.Net Core Expert" },
+    { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Asp.Net Core Expert" },
+    { name: "Akilur Rahman", imageURL: "assets/images/speakers/default-speaker.png", title: "Chief Technology Office, ABB" },
+    { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/Anoop.jpg", title: "ITPro Expert" },
     { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" },
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/default-speaker.png", title: "Azure Solution Architect" },
@@ -18,9 +19,8 @@ var featuredSpeakerData = {
     { name: "Mohit Chabra", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/default-speaker.png", title: "Xamarin Solution Architect" },
     { name: "Mahesh", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
-    { name: "Ilyas", imageURL: "assets/images/speakers/default-speaker.png", title: "IoT Evangelist" },
-    { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
-    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/default-speaker.png", title: "Developer Evangelist" },
+    { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" },
+    { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Developer Evangelist" },
     { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.jpeg", title: "Azure Architect" },
     { name: "Vishnu", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
     { name: "Gireesh", imageURL: "assets/images/speakers/default-speaker.png", title: "DevOps Architect" },
