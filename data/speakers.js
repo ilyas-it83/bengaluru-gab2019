@@ -17,7 +17,7 @@ var featuredSpeakerData = {
     { name: "Wriju Ghosh", imageURL: "assets/images/speakers/Wriju.jpeg", title: "Azure Solution Architect" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Soource Expert" },
     { name: "Mohit Chabra", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
-    { name: "Nish Anil", imageURL: "assets/images/speakers/default-speaker.png", title: "Xamarin Solution Architect" },
+    { name: "Nish Anil", imageURL: "assets/images/speakers/Nish.jpeg", title: "Xamarin Solution Architect" },
     { name: "Mahesh", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" },
     { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Developer Evangelist" },
