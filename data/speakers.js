@@ -14,7 +14,7 @@ var featuredSpeakerData = {
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/Anoop.jpg", title: "ITPro Expert" },
     { name: "Deepak Singh Dhami", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Expert" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/default-speaker.png", title: "Sr, Technology Evangelist" },
-    { name: "Wriju Ghosh", imageURL: "assets/images/speakers/default-speaker.png", title: "Azure Solution Architect" },
+    { name: "Wriju Ghosh", imageURL: "assets/images/speakers/Wriju.jpeg", title: "Azure Solution Architect" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Soource Expert" },
     { name: "Mohit Chabra", imageURL: "assets/images/speakers/default-speaker.png", title: "" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/default-speaker.png", title: "Xamarin Solution Architect" },
