@@ -32,9 +32,9 @@ var featuredSpeakerData = {
     { name: "Ajay", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect", linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Adil", imageURL: "assets/images/speakers/default-speaker.png", title: "ITPro Architect" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Vic Parmar", imageURL: "assets/images/speakers/vic.jpeg", title: "IoT Architect" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Vignesh Ganesan", imageURL: "assets/images/speakers/default-speaker.png", title: "Sharepoint Architect" , linkedin:"https://www.linkedin.com/in/vignesh-ganesan-mcp-mcitp-mcts-itil-v3-9246384a/", facebook:"https://www.facebook.com/vignesh.ganesan.14", twitter:"https://twitter.com/sharepointnerd" },
+    { name: "Vignesh Ganesan", imageURL: "assets/images/speakers/vignesh.jpg", title: "Sharepoint Architect" , linkedin:"https://www.linkedin.com/in/vignesh-ganesan-mcp-mcitp-mcts-itil-v3-9246384a/", facebook:"https://www.facebook.com/vignesh.ganesan.14", twitter:"https://twitter.com/sharepointnerd" },
     { name: "Bijaya Kumar Sahoo", imageURL: "assets/images/speakers/default-speaker.png", title: "SharePoint Consultant, TSInfo Technologies" , linkedin:"http://in.linkedin.com/in/fewlines4biju/", facebook:"https://www.facebook.com/fewlines4biju", twitter:"http://www.twitter.com/fewlines4biju" },
-    { name: "Manoj Kumar Mittal", imageURL: "assets/images/speakers/default-speaker.png", title: "Technical Architect @ Mindtree Ltd" , linkedin:"https://www.linkedin.com/in/manoj-mittal-mcp-mcts-oca-mcsa/", facebook:"https://www.facebook.com/manoj.mcans", twitter:"https://twitter.com/manojmcans" }
+    { name: "Manoj Kumar Mittal", imageURL: "assets/images/speakers/manoj.jpg", title: "Technical Architect @ Mindtree Ltd" , linkedin:"https://www.linkedin.com/in/manoj-mittal-mcp-mcts-oca-mcsa/", facebook:"https://www.facebook.com/manoj.mcans", twitter:"https://twitter.com/manojmcans" }
   ]
 };
 
