@@ -768,7 +768,7 @@ button:focus {
 /*--------------------*/
 
 
-#mu-speakers {
+#mu-speakers , #team {
 	background-color: #fff;
 	display: inline;
 	float: left;
