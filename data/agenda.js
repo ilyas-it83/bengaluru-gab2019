@@ -1,7 +1,7 @@
 
 var day1AgendaData={ 
     dev:[
-        { title:"Keynote Address",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"Keynote Address",speaker:"Swaminathan Vetri",imageURL:"assets/images/speakers/swami.jpg",desc:"Learn how to easily build, debug, deploy, diagnose, and manage multi-platform, scalable apps and services using the rich set of developer tools", time:"10.00 AM - 10.45 AM"},
         { title:"Break",speaker:"",imageURL: "assets/images/coffee.png",desc:"", time:"10.45 AM - 11.00 AM"},
         { title:"Building Secure Web Applications with Microsoft Technologies",imageURL: "assets/images/speakers/default-speaker.png", time:"11.00 AM - 11.45 AM"},
