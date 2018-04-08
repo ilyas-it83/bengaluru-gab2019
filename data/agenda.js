@@ -30,7 +30,7 @@ var day1AgendaData={
     ],
     itPro:[
         { title:"Keynote Address",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"09.00 AM - 09.45 AM"},
-        { title:"How to make your Azure Deployments secure",speaker:"",imageURL: "assets/images/speakers/Sarvesh.jpg",desc:"", time:"10.00 AM - 10.45 AM"},
+        { title:"Design & Secure Your Cloud Infrastructure",speaker:"",imageURL: "assets/images/speakers/Sarvesh.jpg",desc:"", time:"10.00 AM - 10.45 AM"},
         { title:"Break", imageURL: "assets/images/coffee.png",time:"10.45 AM - 11.00 AM"},
         { title:"SCCM with Azure PaaS services (CDP and CMG) - Troubleshooting Tips",speaker:"",imageURL: "assets/images/speakers/Sudeesh.jpg",desc:"", time:"11.00 AM - 11.45 AM"},
         { title:"Azure Automation with PowerShell",speaker:"",imageURL: "assets/images/speakers/dhami.jpg",desc:"", time:"12.00 AM - 12.45 AM"},
