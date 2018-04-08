@@ -4,7 +4,7 @@ var day1AgendaData={
         { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"To be added",speaker:"",imageURL:"assets/images/speakers/default-speaker.png",desc:"To be added", time:"10.00 AM - 10.45 AM"},
         { title:"Break",speaker:"",imageURL: "assets/images/coffee.png",desc:"", time:"10.45 AM - 11.00 AM"},
-        { title:"To be added",imageURL: "assets/images/speakers/default-speaker.png",desc:"To be added", time:"11.00 AM - 11.45 AM"},
+        { title:"Devops on Azure",imageURL: "assets/images/speakers/vishnu.jpeg",desc:"To be added", time:"11.00 AM - 11.45 AM"},
         { title:"Go Mobile with Xamarin and Azure",speaker:"Nish Anil",imageURL:"assets/images/speakers/Nish.jpg",desc:"Learn to build intelligent apps with scalable mobile backends using Xamarin and Azure", time:"12.00 AM - 12.45 AM"},
         { title:"Lunch",speaker:"",imageURL:"assets/images/food.png",desc:"", time:"1.00 PM - 2.00 PM"},
         { title:"Demystifying the APIs in Cosmos DB ",speaker:"Mohit Chhabra",imageURL:"assets/images/speakers/mohit.jpg",desc:"To be added", time:"02.00 PM - 02.45 PM"},
@@ -21,7 +21,7 @@ var day1AgendaData={
         { title:"Build InstaShare with ReactJS",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"12.00 AM - 12.45 AM"},
         { title:"Lunch",imageURL:"assets/images/food.png", time:"1.00 PM - 2.00 PM"},
         { title:"Building high-performance concurrent systems using Go programming language",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"02.00 PM - 02.45 PM"},
-        { title:"TBA",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"03.00 PM -3.45 PM"},
+        { title:"New Stack in .Net World(Docker, Kubernetes,Helm,Istio)",speaker:"",imageURL: "assets/images/speakers/girish.jpeg",desc:"We will look at some of the new tools and tech emerging which were used in opensource can now also be applied to .net application.It will be a demo based session which will cover the basic concepts and see what are the solution these tools solve.we will first look at how to dockerize the .net core application and then run the containers in Kuberenetes and use helm to do deployments and finally go through service mesh technology.", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
         { title:"TBA",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"04.00 PM - 04.45 PM"},
         { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/default-speaker.png", time:"05.00 PM - 05.30 PM"}
@@ -41,16 +41,16 @@ var day1AgendaData={
     ],
     sharePoint:[
         { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
-        { title:"How to make your Azure Deployments secure",speaker:"",imageURL: "assets/images/speakers/Sarvesh.jpg",desc:"", time:"10.00 AM - 10.45 AM"},
+        { title:"AI for Medical rehabilitation",speaker:"",imageURL: "assets/images/speakers/Praveen.jpeg",desc:"AI can be a key assistive factor for medical rehabilitation. By collective data from sensors and from videos, a complete cognitive analysis of the patients rehabilitation post operation can be done. In this session, we will talk about how a specific rehab device uses cognitive analysis and machine learning to help build custom rehabilitation sessions for faster recovery of patients", time:"10.00 AM - 10.45 AM"},
         { title:"Break", imageURL: "assets/images/coffee.png",time:"10.45 AM - 11.00 AM"},
-        { title:"SCCM with Azure PaaS services (CDP and CMG) - Troubleshooting Tips",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"11.00 AM - 11.45 AM"},
-        { title:"Azure Automation with PowerShell",speaker:"",imageURL: "assets/images/speakers/dhami.jpg",desc:"", time:"12.00 AM - 12.45 AM"},
+        { title:"Azure ML/Cognitive Services Deep dive",speaker:"",imageURL: "assets/images/speakers/mahesh.png",desc:"A fully-managed cloud service that enables you to easily build, deploy, and share predictive analytics solutions", time:"11.00 AM - 11.45 AM"},
+        { title:"To be added",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"12.00 AM - 12.45 AM"},
         { title:"Lunch",imageURL:"assets/images/food.png", time:"1.00 PM - 2.00 PM"},
-        { title:"Modern Management with Intune – Migrate the Group Policy to CSP",speaker1:"",speaker2:"",imageURL: "assets/images/speakers/vimal.jpeg",desc:"", time:"02.00 PM - 02.45 PM"},
-        { title:"Azure Backup and Restore Best Practices",speaker:"",imageURL: "assets/images/speakers/Adil.jpg",desc:"", time:"03.00 PM -3.45 PM"},
+        { title:"Intelligent Edge/Cloud",speaker1:"",speaker2:"",imageURL: "assets/images/speakers/Ilyas.png",desc:"", time:"02.00 PM - 02.45 PM"},
+        { title:"Big Data with HDInsight  on Azure",speaker:"",imageURL: "assets/images/speakers/deepthi.jpg",desc:"Big Data with HDInsight  on Azure", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
-        { title:"Windows 10 co management benefits and real-world experience",speaker:"",imageURL: "assets/images/speakers/Rajul.jpg",desc:"", time:"04.00 PM - 04.45 PM"},
-        { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/default-speaker.png", time:"05.00 PM - 05.30 PM"}
+        { title:"Scaling beyond a Data Warehouse, to a Data Lake architecture on Azure, to meet with rising Customer Demands",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"04.00 PM - 04.45 PM"},
+        { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/ilyas.png", time:"05.00 PM - 05.30 PM"}
     ],
     office:[
         { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
