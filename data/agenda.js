@@ -4,7 +4,7 @@ var day1AgendaData={
         { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"To be added",speaker:"",imageURL:"assets/images/speakers/default-speaker.png",desc:"To be added", time:"10.00 AM - 10.45 AM"},
         { title:"Break",speaker:"",imageURL: "assets/images/coffee.png",desc:"", time:"10.45 AM - 11.00 AM"},
-        { title:"Devops on Azure",imageURL: "assets/images/speakers/vishnu.jpeg",desc:"To be added", time:"11.00 AM - 11.45 AM"},
+        { title:"Zero to Hero with Devops on Azure",imageURL: "assets/images/speakers/vishnu.jpeg",desc:"Zero to Hero with Devops on Azure", time:"11.00 AM - 11.45 AM"},
         { title:"Go Mobile with Xamarin and Azure",speaker:"Nish Anil",imageURL:"assets/images/speakers/Nish.jpg",desc:"Learn to build intelligent apps with scalable mobile backends using Xamarin and Azure", time:"12.00 AM - 12.45 AM"},
         { title:"Lunch",speaker:"",imageURL:"assets/images/food.png",desc:"", time:"1.00 PM - 2.00 PM"},
         { title:"Demystifying the APIs in Cosmos DB ",speaker:"Mohit Chhabra",imageURL:"assets/images/speakers/mohit.jpg",desc:"To be added", time:"02.00 PM - 02.45 PM"},
