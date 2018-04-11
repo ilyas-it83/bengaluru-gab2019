@@ -2,14 +2,13 @@
 
 var keynoteData = {
   speakers: [
-    { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" },
-    { name: "Sandeep Alur", imageURL: "assets/images/speakers/sandeep.jpeg", title: "Director - Partner Technology Engagements at Microsoft" },
+    { name: "Akilur Rahman", imageURL: "assets/images/speakers/akilur.jpg", title: "Chief Technology Officer, ABB" },
+    { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" }
   ]
 };
 
 var featuredSpeakerData = {
   featuredSpeakers: [
-    { name: "Akilur Rahman", imageURL: "assets/images/speakers/akilur.jpg", title: "Chief Technology Officer, ABB" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Anand Gothe", imageURL: "assets/images/speakers/anand.jpg", title: "Chief Architect at Prowareness" , linkedin:"https://www.linkedin.com/in/anandgothe/", facebook:"https://www.facebook.com/anandgothe", twitter:"https://twitter.com/anandgothe" },
     { name: "Anoop Chandran Nair", imageURL: "assets/images/speakers/Anoop.jpg", title: "ITPro Expert/Microsoft MVP" , linkedin:"https://www.linkedin.com/in/anoopcnair/", facebook:"https://www.facebook.com/ConfigMgr2012/", twitter:"https://twitter.com/anoopmannur" },
     { name: "Deepthi Anantharaman", imageURL: "assets/images/speakers/deepthi.jpg", title: "Sr, Technology Evangelist" , linkedin:"https://www.linkedin.com/in/deepthianantharam/", facebook:"https://www.facebook.com/deepthi.anantharam", twitter:"#https://twitter.com/Deananth" },
