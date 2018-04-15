@@ -15,15 +15,15 @@ var day1AgendaData={
     ],
     devOSS:[
         { title:"Keynote Address",speaker:"Ilyas",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
-        { title:"Getting Started with ASP.NET Core 2.0",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"10.00 AM - 10.45 AM"},
+        { title:"To be Published",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"10.00 AM - 10.45 AM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"10.45 AM - 11.00 AM"},
-        { title:"Getting Started with Angular 5",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"11.00 AM - 11.45 AM"},
-        { title:"Build InstaShare with ReactJS",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"12.00 AM - 12.45 AM"},
+        { title:"Deep Dive with Docker",speaker:"",imageURL: "assets/images/speakers/Jeeva.jpeg",desc:"", time:"11.00 AM - 11.45 AM"},
+        { title:"Designing a Serverless Platform using Kubernetes",speaker:" Ajaya Agarwal",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"12.00 AM - 12.45 AM"},
         { title:"Lunch",imageURL:"assets/images/food.png", time:"1.00 PM - 2.00 PM"},
-        { title:"Building high-performance concurrent systems using Go programming language",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"02.00 PM - 02.45 PM"},
+        { title:"Logging, Security and Analytics on Azure with Elastic Stack",speaker:"Aravind Putrevu",imageURL: "assets/images/speakers/aravind.jpeg",desc:"This talk gives a brief understanding of What is Elastic Stack and How it can be used on Azure Cloud.", time:"02.00 PM - 02.45 PM"},
         { title:"New Stack in .Net World(Docker, Kubernetes,Helm,Istio)",speaker:"",imageURL: "assets/images/speakers/girish.jpeg",desc:"We will look at some of the new tools and tech emerging which were used in opensource can now also be applied to .net application.It will be a demo based session which will cover the basic concepts and see what are the solution these tools solve.we will first look at how to dockerize the .net core application and then run the containers in Kuberenetes and use helm to do deployments and finally go through service mesh technology.", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
-        { title:"TBA",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"04.00 PM - 04.45 PM"},
+        { title:"Azure Developer Tools",speaker:"",imageURL: "assets/images/speakers/swami.jpg",desc:"Learn how to easily build, debug, deploy, diagnose, and manage multi-platform, scalable apps and services using the rich set of developer tools", time:"04.00 PM - 04.45 PM"},
         { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/default-speaker.png", time:"05.00 PM - 05.30 PM"}
     ],
     itPro:[
