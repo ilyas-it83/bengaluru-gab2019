@@ -32,9 +32,9 @@ var featuredSpeakerData = {
     { name: "Rajul", imageURL: "assets/images/speakers/Rajul.jpg", title: "SCCM Consultant" , linkedin:"https://www.linkedin.com/in/rajulros/", facebook:"https://www.facebook.com/rajul.os", twitter:"https://twitter.com/wanderingros" },
     { name: "Vimal", imageURL: "assets/images/speakers/vimal.jpeg", title: "Principle Consultant", linkedin:"https://www.linkedin.com/in/vimal-das-4b706a29/", facebook:"https://www.facebook.com/vimal.ds.3", twitter:"https://twitter.com/VimalVmd" },
     { name: "Sarvesh Goyal", imageURL: "assets/images/speakers/Sarvesh.jpg", title: "Architect - Cloud & Infrastructure", linkedin:"https://www.linkedin.com/in/sarveshgoel/", facebook:"https://www.facebook.com/sarveshgoel82", twitter:"https://twitter.com/sarveshgoyal" },
-    { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/default-speaker.png", title: "Open Source Expert" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Qubole", imageURL: "assets/images/speakers/default-speaker.png", title: "Senior Director of Engineering @ Qubole" , linkedin:"#", facebook:"#", twitter:"#" },
-    { name: "Veer Bahadur", imageURL: "assets/images/speakers/default-speaker.png", title: "Azure Pricing  Expert" , linkedin:"https://in.linkedin.com/in/veerbahadur", facebook:"#", twitter:"#" }
+    { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/Jeeva.jpeg", title: "Open Source Expert" , linkedin:"#", facebook:"#", twitter:"#" },
+    { name: "Amit Kumar", imageURL: "assets/images/speakers/Amit.jpg", title: "Senior Director of Engineering @ Qubole" , linkedin:"#", facebook:"#", twitter:"#" },
+    { name: "Veer Bahadur", imageURL: "assets/images/speakers/Veer.png", title: "Azure Pricing  Expert" , linkedin:"https://in.linkedin.com/in/veerbahadur", facebook:"#", twitter:"#" }
 
   ]
 };
