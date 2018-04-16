@@ -17,6 +17,8 @@ var featuredSpeakerData = {
     { name: "Murugan Andezuthu Dharmaratnam", imageURL: "assets/images/speakers/murugan.png", title: "Consultant Architect Microsoft Azure & Enterprise Applications" , linkedin:"https://www.linkedin.com/in/muruganad/", facebook:"https://www.facebook.com/muruganad", twitter:"https://twitter.com/murugan_ad" },
     { name: "Manoj Kumar Mittal", imageURL: "assets/images/speakers/manoj.jpg", title: "Technical Architect @ Mindtree Ltd" , linkedin:"https://www.linkedin.com/in/manoj-mittal-mcp-mcts-oca-mcsa/", facebook:"https://www.facebook.com/manoj.mcans", twitter:"https://twitter.com/manojmcans" },
     { name: "Nish Anil", imageURL: "assets/images/speakers/Nish.jpg", title: "Senior Program Manager, Visual Studio & Xamarin" , linkedin:"http://linkedin.com/in/nanil/", facebook:"#", twitter:"http://twitter.com/NishAnil" },
+    { name: "Nandan Rao", imageURL: "assets/images/speakers/Nandan.jpeg", title: "Principal Security Architect at ABB" , linkedin:"https://www.linkedin.com/in/nandanrao/", facebook:"#", twitter:"#" },
+    { name: "Vic Parmar", imageURL: "assets/images/speakers/vic.jpeg", title: "Director IT Operations" , linkedin:"https://www.linkedin.com/in/vicparmar", facebook:"https://www.facebook.com/vic.parmar", twitter:"https://twitter.com/VicParmar" },
     { name: "Ilyas", imageURL: "assets/images/speakers/ilyas.png", title: "IoT Evangelist" , linkedin:"https://www.linkedin.com/in/ilyasf/", facebook:"https://www.facebook.com/IlyasTheWebizen", twitter:"https://twitter.com/ilyas_tweets" },
     { name: "Swaminathan Vetri", imageURL: "assets/images/speakers/swami.jpg", title: "Microsoft MVP/ Lead Engineer JCPenney" , linkedin:"https://www.linkedin.com/in/swaminathanvetri/", facebook:"https://www.facebook.com/swaminathan.vetri", twitter:"https://twitter.com/svswaminathan" },
     { name: "Vishnu", imageURL: "assets/images/speakers/vishnu.jpeg", title: "DevOps Architect" , linkedin:"#", facebook:"#", twitter:"#" },
@@ -35,9 +37,8 @@ var featuredSpeakerData = {
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/Jeeva.jpeg", title: "Open Source Expert" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Amit Kumar", imageURL: "assets/images/speakers/Amit.jpg", title: "Senior Director of Engineering @ Qubole" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Veer Bahadur", imageURL: "assets/images/speakers/Veer.png", title: "Azure Pricing  Expert" , linkedin:"https://in.linkedin.com/in/veerbahadur", facebook:"#", twitter:"#" },
-    { name: "Hemanth Bidare", imageURL: "assets/images/speakers/Hemanth.jpg", title: "Technical Lead/Manager @ Euromonitor International" , linkedin:"https://www.linkedin.com/in/hemanthbidare/", facebook:"https://www.facebook.com/hemanthbidare", twitter:"https://twitter.com/hemanthbidare" },
-    { name: "Nandan Rao", imageURL: "assets/images/speakers/Nandan.jpeg", title: "Principal Security Architect at ABB" , linkedin:"https://www.linkedin.com/in/nandanrao/", facebook:"#", twitter:"#" },
-    { name: "Vic Parmar", imageURL: "assets/images/speakers/vic.jpeg", title: "Director IT Operations" , linkedin:"https://www.linkedin.com/in/vicparmar", facebook:"https://www.facebook.com/vic.parmar", twitter:"https://twitter.com/VicParmar" }
+    { name: "Hemanth Bidare", imageURL: "assets/images/speakers/Hemanth.jpg", title: "Technical Lead/Manager @ Euromonitor International" , linkedin:"https://www.linkedin.com/in/hemanthbidare/", facebook:"https://www.facebook.com/hemanthbidare", twitter:"https://twitter.com/hemanthbidare" }
+  
   ]
 };
 
