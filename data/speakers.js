@@ -35,10 +35,10 @@ var featuredSpeakerData = {
     { name: "Vimal", imageURL: "assets/images/speakers/vimal.jpeg", title: "Principle Consultant", linkedin:"https://www.linkedin.com/in/vimal-das-4b706a29/", facebook:"https://www.facebook.com/vimal.ds.3", twitter:"https://twitter.com/VimalVmd" },
     { name: "Sarvesh Goyal", imageURL: "assets/images/speakers/Sarvesh.jpg", title: "Architect - Cloud & Infrastructure", linkedin:"https://www.linkedin.com/in/sarveshgoel/", facebook:"https://www.facebook.com/sarveshgoel82", twitter:"https://twitter.com/sarveshgoyal" },
     { name: "Jeeva Chelladhurai", imageURL: "assets/images/speakers/Jeeva.jpeg", title: "Open Source Expert" , linkedin:"#", facebook:"#", twitter:"#" },
+    { name: "Shreekanth KS", imageURL: "assets/images/speakers/Sree.jpg", title: "Cloud Security @ ABB", linkedin:"https://www.linkedin.com/in/sreekanth-sukumaran-49a8965a/", facebook:"", twitter:"" },
     { name: "Amit Kumar", imageURL: "assets/images/speakers/Amit.jpg", title: "Senior Director of Engineering @ Qubole" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Veer Bahadur", imageURL: "assets/images/speakers/Veer.png", title: "Azure Pricing  Expert" , linkedin:"https://in.linkedin.com/in/veerbahadur", facebook:"#", twitter:"#" },
     { name: "Hemanth Bidare", imageURL: "assets/images/speakers/Hemanth.jpg", title: "Technical Lead/Manager @ Euromonitor International" , linkedin:"https://www.linkedin.com/in/hemanthbidare/", facebook:"https://www.facebook.com/hemanthbidare", twitter:"https://twitter.com/hemanthbidare" }
-  
   ]
 };
 
