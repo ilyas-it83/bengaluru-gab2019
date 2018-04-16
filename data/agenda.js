@@ -10,7 +10,7 @@ var day1AgendaData={
         { title:"Demystifying the APIs in Cosmos DB ",speaker:"Mohit Chhabra",imageURL:"assets/images/speakers/mohit.jpg",desc:"I Will be talking about the different type of dbs supported in Cosmos Db and which one to use in what scenario backed by a demo.", time:"02.00 PM - 02.45 PM"},
         { title:"Microservices are easy with Azure Service Fabric",speaker:"",imageURL: "assets/images/speakers/anand.jpg",desc:"Azure Service Fabric makes it easy to code, deploy and manage your Microservices on cloud or on-premise. It's the underlying technology used by lot of Microsoft services as well. We'll cover the basics and I'll squeeze in some demos too",speaker:"Anand Gothe", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
-        { title:"To be added",imageURL: "assets/images/speakers/murugan.png",desc:"To be added", speaker:"Murugan Andezuthu Dharmaratnam", time:"04.00 PM - 04.45 PM"},
+        { title:"AI 4 Beginner - Web & Mobile",imageURL: "assets/images/speakers/murugan.png",desc:"A brief introduction to artificial intelligence and neural networks. Build your first AI enabled web and mobile app in 30 mins or less using cloud services.", speaker:"Murugan Andezuthu Dharmaratnam", time:"04.00 PM - 04.45 PM"},
         { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/swami.jpg",speaker:"Swaminathan Vetri", time:"05.00 PM - 05.30 PM"}
     ],
     devOSS:[
@@ -62,7 +62,7 @@ var day1AgendaData={
         { title:"To be added",speaker:"",imageURL: "assets/images/speakers/default-speaker.png",desc:"", time:"02.00 PM - 02.45 PM"},
         { title:"Create a RESTful API using NODE JS and PowerShell",speaker:"Chendrayan Venkatesan (Chen V)",imageURL: "assets/images/speakers/Chen.jpg",desc:"Using Node.JS and PowerShell IT Pro can quickly build a web apps / RESTful API for Automating Infrastructure.NODE.JS runtime calls PowerShell scripts.", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
-        { title:"Securing IoT",speaker:"",imageURL: "assets/images/speakers/Nandan.Jpeg",desc:"", time:"04.00 PM - 04.45 PM"},
+        { title:"Securing the IoT World",speaker:"",imageURL: "assets/images/speakers/Nandan.Jpeg",desc:"Cyber Security is a cornerstone of the IoT world. This presentation introduces the needs of Security and realization of end to end security in the IoT World. It talks about securing the end points, securing the communication between the end points and the cloud and securing the data in the cloud.", time:"04.00 PM - 04.45 PM"},
         { title:"Conclusion & Vote of Thanks",speaker:"Chendrayan Venkatesan (Chen V)",imageURL: "assets/images/speakers/Chen.jpg", time:"05.00 PM - 05.30 PM"}
     ]
 
