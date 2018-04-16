@@ -2,12 +2,12 @@
 var day1AgendaData={ 
     dev:[
         { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
-        { title:"A picture is worth a thousand Tag's - AI with Computer Vision",speaker:"Vic Parmar",imageURL:"assets/images/speakers/Vic.jpg",desc:"In this session we will dive into using AI for multimedia and understand how we can use the different sources like Picture and Video.", time:"10.00 AM - 10.45 AM"},
+        { title:"A picture is worth a thousand Tag's - AI with Computer Vision",speaker:"Vic Parmar",imageURL:"assets/images/speakers/Vic.jpeg",desc:"In this session we will dive into using AI for multimedia and understand how we can use the different sources like Picture and Video.", time:"10.00 AM - 10.45 AM"},
         { title:"Break",speaker:"",imageURL: "assets/images/coffee.png",desc:"", time:"10.45 AM - 11.00 AM"},
         { title:"Zero to Hero with Devops on Azure",imageURL: "assets/images/speakers/vishnu.jpeg",desc:"Zero to Hero with Devops on Azure",speaker:"Vishnu Babu", time:"11.00 AM - 11.45 AM"},
-        { title:"Go Mobile with Xamarin and Azure",speaker:"Nish Anil",imageURL:"assets/images/speakers/Nish.jpg",desc:"Learn to build intelligent apps with scalable mobile backends using Xamarin and Azure",speaker:"Nish Anil", time:"12.00 AM - 12.45 AM"},
+        { title:"Demystifying the APIs in Cosmos DB ",speaker:"Mohit Chhabra",imageURL:"assets/images/speakers/mohit.jpg",desc:"I Will be talking about the different type of dbs supported in Cosmos Db and which one to use in what scenario backed by a demo.", time:"12.00 PM - 12.45 PM"},
         { title:"Lunch",speaker:"",imageURL:"assets/images/food.png",desc:"", time:"1.00 PM - 2.00 PM"},
-        { title:"Demystifying the APIs in Cosmos DB ",speaker:"Mohit Chhabra",imageURL:"assets/images/speakers/mohit.jpg",desc:"I Will be talking about the different type of dbs supported in Cosmos Db and which one to use in what scenario backed by a demo.", time:"02.00 PM - 02.45 PM"},
+        { title:"Go Mobile with Xamarin and Azure",speaker:"Nish Anil",imageURL:"assets/images/speakers/Nish.jpg",desc:"Learn to build intelligent apps with scalable mobile backends using Xamarin and Azure",speaker:"Nish Anil", time:"02.00 PM - 02.45 PM"},
         { title:"Microservices are easy with Azure Service Fabric",speaker:"",imageURL: "assets/images/speakers/anand.jpg",desc:"Azure Service Fabric makes it easy to code, deploy and manage your Microservices on cloud or on-premise. It's the underlying technology used by lot of Microsoft services as well. We'll cover the basics and I'll squeeze in some demos too",speaker:"Anand Gothe", time:"03.00 PM -3.45 PM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"03.45 PM - 04.00 PM"},
         { title:"AI 4 Beginner - Web & Mobile",imageURL: "assets/images/speakers/murugan.png",desc:"A brief introduction to artificial intelligence and neural networks. Build your first AI enabled web and mobile app in 30 mins or less using cloud services.", speaker:"Murugan Andezuthu Dharmaratnam", time:"04.00 PM - 04.45 PM"},
