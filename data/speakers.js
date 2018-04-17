@@ -38,7 +38,8 @@ var featuredSpeakerData = {
     { name: "Shreekanth KS", imageURL: "assets/images/speakers/Sree.jpg", title: "Cloud Security @ ABB", linkedin:"https://www.linkedin.com/in/sreekanth-sukumaran-49a8965a/", facebook:"", twitter:"" },
     { name: "Amit Kumar", imageURL: "assets/images/speakers/Amit.jpg", title: "Senior Director of Engineering @ Qubole" , linkedin:"#", facebook:"#", twitter:"#" },
     { name: "Veer Bahadur", imageURL: "assets/images/speakers/Veer.png", title: "Azure Pricing  Expert" , linkedin:"https://in.linkedin.com/in/veerbahadur", facebook:"#", twitter:"#" },
-    { name: "Hemanth Bidare", imageURL: "assets/images/speakers/Hemanth.jpg", title: "Technical Lead/Manager @ Euromonitor International" , linkedin:"https://www.linkedin.com/in/hemanthbidare/", facebook:"https://www.facebook.com/hemanthbidare", twitter:"https://twitter.com/hemanthbidare" }
+    { name: "Hemanth Bidare", imageURL: "assets/images/speakers/Hemanth.jpg", title: "Technical Lead/Manager @ Euromonitor International" , linkedin:"https://www.linkedin.com/in/hemanthbidare/", facebook:"https://www.facebook.com/hemanthbidare", twitter:"https://twitter.com/hemanthbidare" },
+    { name: "Ajaya Agarwal", imageURL: "assets/images/speakers/Ajaya.jpg", title: "Problem solver" , linkedin:"https://www.linkedin.com/in/ajayaa/", facebook:"#", twitter:"https://twitter.com/aj_agr" }
   ]
 };
 
