@@ -3,7 +3,7 @@
 var keynoteData = {
   speakers: [
     { name: "Akilur Rahman", imageURL: "assets/images/speakers/akilur.jpg", title: "Chief Technology Officer, ABB" },
-    { name: "Wilhelm Weise", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" }
+    { name: "Wilhelm Wiese", imageURL: "assets/images/speakers/wilhelm.jpeg", title: "Head of India Development Center at ABB Global Industries and Services Private Limited" }
   ]
 };
 
