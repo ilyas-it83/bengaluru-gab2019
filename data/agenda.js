@@ -1,7 +1,7 @@
 
 var day1AgendaData={ 
     dev:[
-        { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Wilhelm Wiese",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"A picture is worth a thousand Tag's - AI with Computer Vision",speaker:"Vic Parmar",imageURL:"assets/images/speakers/Vic.jpeg",desc:"In this session we will dive into using AI for multimedia and understand how we can use the different sources like Picture and Video.", time:"10.00 AM - 10.45 AM"},
         { title:"Break",speaker:"",imageURL: "assets/images/coffee.png",desc:"", time:"10.45 AM - 11.00 AM"},
         { title:"Zero to Hero with Devops on Azure",imageURL: "assets/images/speakers/vishnu.jpeg",desc:"Zero to Hero with Devops on Azure",speaker:"Vishnu Babu", time:"11.00 AM - 11.45 AM"},
@@ -14,7 +14,7 @@ var day1AgendaData={
         { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/swami.jpg",speaker:"Swaminathan Vetri", time:"05.00 PM - 05.30 PM"}
     ],
     devOSS:[
-        { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Wilhelm Wiese",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"Open Tools for Azure Development",speaker:"Swaminathan Vetri",imageURL: "assets/images/speakers/swami.jpg",desc:"Learn how to easily build, debug, deploy, diagnose, and manage multi-platform, scalable apps and services using the rich set of developer tools", time:"10.00 AM - 10.45 AM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"10.45 AM - 11.00 AM"},
         { title:"Docker Deep Dive",speaker:"Jeeva Chelladurai",imageURL: "assets/images/speakers/Jeeva.jpeg",desc:"In this talk we will introduce you to the containerization technology and help you glean some insight on how Docker achieves containerization", time:"11.00 AM - 11.45 AM"},
@@ -27,7 +27,7 @@ var day1AgendaData={
         { title:"Conclusion & Vote of Thanks",speaker:"Jeeva Chelladurai",imageURL: "assets/images/speakers/Jeeva.jpeg", time:"05.00 PM - 05.30 PM"}
     ],
     itPro:[
-        { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Wilhelm Wiese",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"Design & Secure Your Cloud Infrastructure",speaker:"Sarvesh Goel",imageURL: "assets/images/speakers/Sarvesh.jpg",desc:"A case study of migrate your large business critical application to Microsoft Azure Cloud Platform (co-Presenting with Ajay Kakkar)", time:"10.00 AM - 10.45 AM"},
         { title:"Break", imageURL: "assets/images/coffee.png",time:"10.45 AM - 11.00 AM"},
         { title:"SCCM with Azure PaaS services (CDP and CMG) - Troubleshooting Tips",speaker:"Sudheesh Narayanaswamy",imageURL: "assets/images/speakers/Sudeesh.jpg",desc:"Cloud Management Gateway and Cloud Distribution Point Troubleshooting", time:"11.00 AM - 11.45 AM"},
@@ -40,7 +40,7 @@ var day1AgendaData={
         { title:"Conclusion & Vote of Thanks",imageURL: "assets/images/speakers/Anoop.jpg", time:"05.00 PM - 05.30 PM"}
     ],
     sharePoint:[
-        { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Wilhelm Wiese",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"AI for Medical rehabilitation",speaker:"Praveen Srivatsa",imageURL: "assets/images/speakers/Praveen.jpeg",desc:"AI can be a key assistive factor for medical rehabilitation. By collective data from sensors and from videos, a complete cognitive analysis of the patients rehabilitation post operation can be done. In this session, we will talk about how a specific rehab device uses cognitive analysis and machine learning to help build custom rehabilitation sessions for faster recovery of patients", time:"10.00 AM - 10.45 AM"},
         { title:"Break", imageURL: "assets/images/coffee.png",time:"10.45 AM - 11.00 AM"},
         { title:"Azure ML/Cognitive Services Deep dive",speaker:"Mahesh",imageURL: "assets/images/speakers/mahesh.png",desc:"A fully-managed cloud service that enables you to easily build, deploy, and share predictive analytics solutions", time:"11.00 AM - 11.45 AM"},
@@ -53,7 +53,7 @@ var day1AgendaData={
         { title:"Conclusion & Vote of Thanks",speaker:"Ilyas",imageURL: "assets/images/speakers/ilyas.png", time:"05.00 PM - 05.30 PM"}
     ],
     office:[
-        { title:"Keynote Address",speaker:"Wilhelm Weise",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
+        { title:"Keynote Address",speaker:"Wilhelm Wiese",imageURL: "assets/images/speakers/wilhelm.jpeg",desc:"", time:"09.00 AM - 09.45 AM"},
         { title:"360 Degree View of Azure Cloud Cost",speaker:"Veer Bahadur",imageURL:"assets/images/speakers/Veer.png",desc:"Cost is always a concern with customers when it comes to the cloud. I've had a number of conversations with customers lately around how they can take advantage of various offers and benefits on Azure to reduce their costs, and I thought I'd share some of them here as well. There are many things you can do to optimize cost, some of which have some caveats and some which may take more effort than others, but this should give you some ideas of things to consider if you'd like a lower Azure bill (and who doesn't love lower bills).", time:"10.00 AM - 10.45 AM"},
         { title:"Break",imageURL: "assets/images/coffee.png", time:"10.45 AM - 11.00 AM"},
         { title:"Securing the IoT World",speaker:"",imageURL: "assets/images/speakers/Nandan.Jpeg",desc:"Cyber Security is a cornerstone of the IoT world. This presentation introduces the needs of Security and realization of end to end security in the IoT World. It talks about securing the end points, securing the communication between the end points and the cloud and securing the data in the cloud.", time:"11.00 AM - 11.45 AM"},
