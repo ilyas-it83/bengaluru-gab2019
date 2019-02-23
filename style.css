@@ -244,15 +244,11 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
 	display: inline;
-	float: left;
-	width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
-	
+	background-size: cover;	
 }
 
 #mu-hero-inner {
@@ -348,10 +344,11 @@ button:focus {
 .mu-event-date-line {
 	background-color: #fff;
 	color: #333;
-	padding: 5px 10px;
+	padding: 20px 30px;
 	display: inline-block;
 	margin-top: 10px;
 	font-weight: 600;
+	border-radius: 200px;
 }
 
 .mu-event-counter-area {

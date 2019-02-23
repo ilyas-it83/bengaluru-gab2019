@@ -77,18 +77,6 @@
 		}
 	});
 
-	/* ----------------------------------------------------------- */
-	/*  2. EVENT TIME COUNTER
-	/* ----------------------------------------------------------- */
-
-	$('#mu-event-counter').countdown('2018/02/02').on('update.countdown', function (event) {
-
-		var $this = $(this).html(event.strftime(''
-			+ '<span class="mu-event-counter-block"><span>%D</span> Days</span> '
-			+ '<span class="mu-event-counter-block"><span>%H</span> Hours</span> '
-			+ '<span class="mu-event-counter-block"><span>%M</span> Mins</span> '
-			+ '<span class="mu-event-counter-block"><span>%S</span> Secs</span>'));
-	});
 
 
 	/* ----------------------------------------------------------- */
