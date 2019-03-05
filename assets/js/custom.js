@@ -31,37 +31,37 @@
 
 	
 
-	var keynoteSource = $("#keynoteTemplate").html();
-	var keynotetemplate = Handlebars.compile(keynoteSource);
+	// var keynoteSource = $("#keynoteTemplate").html();
+	// var keynotetemplate = Handlebars.compile(keynoteSource);
 
-	$(".mu-keynote-slider").html(keynotetemplate(keynoteData));
+	// $(".mu-keynote-slider").html(keynotetemplate(keynoteData));
 	
-	var featuredSpeakerSource = $("#featuredSpeakerTemplate").html();
-	var featuredSpeakertemplate = Handlebars.compile(featuredSpeakerSource);
+	// var featuredSpeakerSource = $("#featuredSpeakerTemplate").html();
+	// var featuredSpeakertemplate = Handlebars.compile(featuredSpeakerSource);
 
-	$("#dvFeaturedSpeakers").html(featuredSpeakertemplate(featuredSpeakerData));
+	// $("#dvFeaturedSpeakers").html(featuredSpeakertemplate(featuredSpeakerData));
 
 
-	var day1DevAgendaSource = $("#day1DevAgendaTemplate").html();
-	var day1DevAgendaTemplate = Handlebars.compile(day1DevAgendaSource);
-	$("#ulDay1DevAgendaTemplate").html(day1DevAgendaTemplate(day1AgendaData));
+	// var day1DevAgendaSource = $("#day1DevAgendaTemplate").html();
+	// var day1DevAgendaTemplate = Handlebars.compile(day1DevAgendaSource);
+	// $("#ulDay1DevAgendaTemplate").html(day1DevAgendaTemplate(day1AgendaData));
 
-	var day1DevOSSAgendaSource = $("#day1DevOSSAgendaTemplate").html();
-	var day1DevOSSAgendaTemplate = Handlebars.compile(day1DevOSSAgendaSource);
-	$("#ulDay1DevOSSAgendaTemplate").html(day1DevOSSAgendaTemplate(day1AgendaData));
+	// var day1DevOSSAgendaSource = $("#day1DevOSSAgendaTemplate").html();
+	// var day1DevOSSAgendaTemplate = Handlebars.compile(day1DevOSSAgendaSource);
+	// $("#ulDay1DevOSSAgendaTemplate").html(day1DevOSSAgendaTemplate(day1AgendaData));
 	
-	var day1ItProAgendaSource = $("#day1ItProAgendaTemplate").html();
-	var day1ItProAgendaTemplate = Handlebars.compile(day1ItProAgendaSource);
-	$("#ulDay1ItProAgendaTemplate").html(day1ItProAgendaTemplate(day1AgendaData));
+	// var day1ItProAgendaSource = $("#day1ItProAgendaTemplate").html();
+	// var day1ItProAgendaTemplate = Handlebars.compile(day1ItProAgendaSource);
+	// $("#ulDay1ItProAgendaTemplate").html(day1ItProAgendaTemplate(day1AgendaData));
 	
-	var day1SharepointAgendaSource = $("#day1SharepointAgendaTemplate").html();
-	var day1SharepointAgendaTemplate = Handlebars.compile(day1SharepointAgendaSource);
-	$("#ulDay1SharepointAgendaTemplate").html(day1SharepointAgendaTemplate(day1AgendaData));
+	// var day1SharepointAgendaSource = $("#day1SharepointAgendaTemplate").html();
+	// var day1SharepointAgendaTemplate = Handlebars.compile(day1SharepointAgendaSource);
+	// $("#ulDay1SharepointAgendaTemplate").html(day1SharepointAgendaTemplate(day1AgendaData));
 
 
-	var day1OfficeAgendaSource = $("#day1OfficeAgendaTemplate").html();
-	var day1OfficeAgendaTemplate = Handlebars.compile(day1OfficeAgendaSource);
-	$("#ulDay1OfficeAgendaTemplate").html(day1OfficeAgendaTemplate(day1AgendaData));
+	// var day1OfficeAgendaSource = $("#day1OfficeAgendaTemplate").html();
+	// var day1OfficeAgendaTemplate = Handlebars.compile(day1OfficeAgendaSource);
+	// $("#ulDay1OfficeAgendaTemplate").html(day1OfficeAgendaTemplate(day1AgendaData));
 
 	/* ----------------------------------------------------------- */
 	/*  1. FIXED MENU
@@ -77,18 +77,6 @@
 		}
 	});
 
-	/* ----------------------------------------------------------- */
-	/*  2. EVENT TIME COUNTER
-	/* ----------------------------------------------------------- */
-
-	$('#mu-event-counter').countdown('2018/02/02').on('update.countdown', function (event) {
-
-		var $this = $(this).html(event.strftime(''
-			+ '<span class="mu-event-counter-block"><span>%D</span> Days</span> '
-			+ '<span class="mu-event-counter-block"><span>%H</span> Hours</span> '
-			+ '<span class="mu-event-counter-block"><span>%M</span> Mins</span> '
-			+ '<span class="mu-event-counter-block"><span>%S</span> Secs</span>'));
-	});
 
 
 	/* ----------------------------------------------------------- */

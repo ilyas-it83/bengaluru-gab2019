@@ -244,15 +244,11 @@ button:focus {
 /*--------------------*/
 
 #mu-hero {
-	background-image: url("assets/images/head-featured-bg.jpg");
 	display: inline;
-	float: left;
-	width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
-	background-size: cover;
-	
+	background-size: cover;	
 }
 
 #mu-hero-inner {
@@ -348,10 +344,11 @@ button:focus {
 .mu-event-date-line {
 	background-color: #fff;
 	color: #333;
-	padding: 5px 10px;
+	padding: 20px 30px;
 	display: inline-block;
 	margin-top: 10px;
 	font-weight: 600;
+	border-radius: 200px;
 }
 
 .mu-event-counter-area {
@@ -1957,4 +1954,606 @@ button:focus {
 	background-size: cover;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
-  }
+	}
+	
+	
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+.footer1 {
+    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+
+
+.title-widget {
+	color: #898989;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.title-widget::before {
+    background-color: #ea5644;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+	position: relative;
+    text-transform: uppercase;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+	width:95%;
+}
+
+
+
+.title-median {
+    color: #636363;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.footerp p {font-family: 'Gudea', sans-serif; }
+
+
+#social:hover {
+    			-webkit-transform:scale(1.1); 
+-moz-transform:scale(1.1); 
+-o-transform:scale(1.1); 
+			}
+			#social {
+				-webkit-transform:scale(0.8);
+                /* Browser Variations: */
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8); 
+-webkit-transition-duration: 0.5s; 
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+			}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+			.social-fb:hover {
+				color: #3B5998;
+			}
+			.social-tw:hover {
+				color: #4099FF;
+			}
+			.social-gp:hover {
+				color: #d34836;
+			}
+			.social-em:hover {
+				color: #f39c12;
+			}
+			.nomargin { margin:0px; padding:0px;}
+
+
+
+
+
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+    /*max-width: none;*/
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Slick Theme Color */
+
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    background: #000;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px;
+    line-height: 1;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev{
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+}
+[dir='rtl'] .slick-prev
+{
+    right: 40px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '\f053';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '\f054';
+}
+
+.slick-next{
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+}
+
+
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '\f054';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider
+{
+    margin-bottom: 30px;
+}
+
+.slick-dots
+{
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: black;
+}
+
+ /* Time Circle */
+ /**
+ *	This element is created inside your target element
+ *	It is used so that your own element will not need to be altered
+ **/
+ .time_circles {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/**
+ *	This is all the elements used to house all text used
+ * in time circles
+ **/
+.time_circles > div {
+    position: absolute;
+    text-align: center;
+}
+
+/**
+ *	Titles (Days, Hours, etc)
+ **/
+.time_circles > div > h4 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Century Gothic', Arial;
+    line-height: 1;
+}
+
+/**
+ *	Time numbers, ie: 12
+ **/
+.time_circles > div > span {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: 'Century Gothic', Arial;
+    line-height: 1;
+    font-weight: bold;
+}
+
+
+
+
+
+/*=======================================
+Template Design By MarkUps	
+Author URI : http://www.markups.io/
+========================================*/
+
+.mu-hero-overlay,
+.mu-video-overlay {
+	background-color: #2574A9;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c762cb, #2574A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c762cb, #2574A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mu-primary-btn:hover,
+.mu-primary-btn:focus,
+.mu-copy-right a:hover,
+.mu-copy-right a:focus,
+.mu-send-msg-btn:hover,
+.mu-send-msg-btn:focus,
+.mu-faq-content .panel-title a:hover,
+.mu-faq-content .panel-title a:focus,
+.mu-faq-content .panel-title a[aria-expanded="true"],
+.mu-faq-content .panel-title a>span,
+.mu-menu ul li a:hover,
+.mu-menu ul li a:focus,
+.mu-single-speakers-info p,
+.mu-single-speakers-social li a:hover,
+.mu-single-speakers-social li a:focus,
+.mu-logo,
+.mu-logo:hover,
+.mu-logo:focus,
+#mu-hero .navbar-default .navbar-brand,
+.mu-navbar .mu-menu li a:hover,
+.mu-navbar .mu-menu li a:focus,
+.mu-single-event .mu-event-time {
+	color: #2574A9;
+}
+
+.mu-speakers-slider .slick-next,
+.mu-speakers-slider .slick-prev,
+#mu-venue,
+.mu-popular-price .mu-price-tag,
+.mu-navbar .navbar-toggle,
+.mu-navbar .navbar-toggle:hover,
+.mu-navbar .navbar-toggle:focus,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover,
+.mu-schedule-menu li a:hover,
+.mu-schedule-menu li a:focus,
+.mu-schedule-menu li.active a,
+.mu-schedule-menu li.active a:hover,
+.mu-schedule-menu li.active a:focus {
+	background-color: #2574A9;
+}
+
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+	border: 1px solid #2574A9;
+	color: #2574A9;
+}
+
+.mu-contact-form .form-control:focus,
+.mu-schedule-menu li a {
+	border: 1px solid #2574A9;    
+} 
+
+.mu-send-msg-btn,
+.mu-register-btn:hover,
+.mu-register-btn:focus,
+.mu-popular-price .mu-register-btn {
+	border: 1px solid #2574A9;
+	background-color: #2574A9;
+}
+
+.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #2574A9;
+
+}
+
+.mu-reg-submit-btn:hover,
+.mu-reg-submit-btn:focus {
+	background-color: #2574A9;
+	border: 2px solid #2574A9;
+}
+
+
