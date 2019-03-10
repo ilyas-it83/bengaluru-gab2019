@@ -620,6 +620,10 @@ button:focus {
 	width: 100%;
 }
 
+#mu-schedule table {
+	background-color: white;
+}
+
 .mu-schedule-area {
 	display: inline;
 	float: left;
@@ -1104,7 +1108,7 @@ button:focus {
 /*--------------------*/
 
 #mu-sponsors {
-	background-color: #fff;
+	background-color: #f8f8f8;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -2510,7 +2514,7 @@ Author URI : http://www.markups.io/
 
 .mu-speakers-slider .slick-next,
 .mu-speakers-slider .slick-prev,
-#mu-venue,
+.mu-venue-area,
 .mu-popular-price .mu-price-tag,
 .mu-navbar .navbar-toggle,
 .mu-navbar .navbar-toggle:hover,
