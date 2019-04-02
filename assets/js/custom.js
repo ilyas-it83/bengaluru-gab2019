@@ -66,28 +66,22 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 				fullName: "Sanjeev Sharma",
 				bio: null,
 				tagLine: "ABB India Head [KeyNote]",
-				profilePicture: null,  
+				profilePicture: "assets/images/2019/Sanjeev.jpg",  
 				isTopSpeaker: false,
-				links: [
-					{
-						title: "Twitter",  url: "#", linkType: "Twitter"
-					},
-					{
-						title: "LinkedIn",  url: "#", linkType: "LinkedIn"
-					},
-					{
-						title: "Blog", url: "#", linkType: "Blog"
-					}
-				]
+				links: []
 			};
 		
 		speakers.unshift(keynoteSpeakers);
 
 		var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
-		$("#dvFeaturedSpeakers").html(featuredSpeakertemplate({ speakers }));
+		speakers = {speakers: speakers};
+		var featuredSpeakerList = featuredSpeakertemplate(speakers);
+		$("#dvFeaturedSpeakers").html(featuredSpeakerList);
 
 		var organizersTemplate = Handlebars.compile($("#organizersTemplate").html());
-		$("#dvorganizers").append(organizersTemplate({ organizers }));
+		organizers = {organizers: organizers};
+		var organizersList = organizersTemplate(organizers);
+		$("#dvorganizers").append(organizersList);
 }
 );
 	
