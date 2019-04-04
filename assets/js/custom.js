@@ -46,10 +46,6 @@ $("#DateCountdown").TimeCircles({
 	}
 });
 
-$(window).load(function(){
-	$("h1.sz-day__title").remove();
-});
-
 Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Correct Social Media Icon Link for Speakers
 	return arg1 == arg2 ? options.fn(this) : options.inverse(this);
 });
