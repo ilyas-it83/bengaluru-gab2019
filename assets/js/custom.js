@@ -79,6 +79,156 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			  }
 			],
 		  },
+		  {
+			
+			"fullName": "Ilyas F",
+			"bio": null,
+			"tagLine": "IoT Evangelist at ABB",
+			"profilePicture": "./assets/images/speakers/ilyas.png",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "https://www.twitter.com/ilyas_tweets",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/ilyasf/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "http://bornoncloud.com/",
+				"linkType": "Blog"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Neependra Khare",
+			"bio": null,
+			"tagLine": "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies",
+			"profilePicture": "./assets/images/speakers/neependra.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "#",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/neependra/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "#",
+				"linkType": "Blog"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Sandeep Alur",
+			"bio": null,
+			"tagLine": "AI Enthusiast, an Aspiring Data Scientist & a Cloud Practitioner. Driving Digital Transformation for Customers in India.",
+			"profilePicture": "./assets/images/speakers/sandeep.jpeg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "#",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/sandeepalur/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "#",
+				"linkType": "Blog"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Swaminathan Vetri",
+			"bio": null,
+			"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
+			"profilePicture": "./assets/images/speakers/swami.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "#",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/swaminathanvetri/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "#",
+				"linkType": "Blog"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Nish Anil",
+			"bio": null,
+			"tagLine": "Senior PM .NET",
+			"profilePicture": "./assets/images/speakers/nish.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "#",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/nanil/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "#",
+				"linkType": "Blog"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Ritesh Modi",
+			"bio": null,
+			"tagLine": "Hon. Microsoft Regional Director, Author of 8 Best Seller books on Blockchain, Azure, Bots and DevOps",
+			"profilePicture": "./assets/images/speakers/Ritesh.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
+				"title": "Twitter",
+				"url": "#",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/ritesh-modi/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "#",
+				"linkType": "Blog"
+			  }
+			],
+		  }
 	];
 
 	var organizers =  [	{
@@ -107,6 +257,56 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		  }
 		],
 	  },
+	  {
+			
+		"fullName": "Ilyas F",
+		"bio": null,
+		"tagLine": "IoT Evangelist at ABB",
+		"profilePicture": "./assets/images/speakers/ilyas.png",
+		"isTopSpeaker": true,
+		"links": [
+		  {
+			"title": "Twitter",
+			"url": "https://www.twitter.com/ilyas_tweets",
+			"linkType": "Twitter"
+		  },
+		  {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/ilyasf/",
+			"linkType": "LinkedIn"
+		  },
+		  {
+			"title": "Blog",
+			"url": "http://bornoncloud.com/",
+			"linkType": "Blog"
+		  }
+		],
+	  },
+	  {
+			
+		"fullName": "Swaminathan Vetri",
+		"bio": null,
+		"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
+		"profilePicture": "./assets/images/speakers/swami.jpg",
+		"isTopSpeaker": true,
+		"links": [
+		  {
+			"title": "Twitter",
+			"url": "#",
+			"linkType": "Twitter"
+		  },
+		  {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/swaminathanvetri/",
+			"linkType": "LinkedIn"
+		  },
+		  {
+			"title": "Blog",
+			"url": "#",
+			"linkType": "Blog"
+		  }
+		],
+	  }
 	];
 	var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
 	speakers = {speakers: speakers};
