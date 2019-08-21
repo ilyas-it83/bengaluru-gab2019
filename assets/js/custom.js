@@ -53,54 +53,60 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 (function ($) {
 
 
-	var speakers = [ { 						           
-		fullName: "Sanjeev Sharma",
-		tagLine: "ABB India Head [KeyNote]",
-		profilePicture: "assets/images/2019/Sanjeev.jpg",  
-		links: [
-			{
+	var speakers = [ 
+		{
+			
+			"fullName": "Gurucharan Subramani",
+			"bio": null,
+			"tagLine": "Azure, DevOps, IoT at ABB",
+			"profilePicture": "https://sessionize.com/image?f=b271088f16d3aa03897e252bbb5f621c,400,400,True,False,c9-0b72-4e13-aebb-6c0a0598d216.9f4d512f-da3d-4d36-a5f7-4c1a709bd8ea.jpeg",
+			"isTopSpeaker": true,
+			"links": [
+			  {
 				"title": "Twitter",
-				"url": "https://twitter.com/aaa",
+				"url": "https://www.twitter.com/gurucharan94",
 				"linkType": "Twitter"
 			  },
 			  {
 				"title": "LinkedIn",
-				"url": "https://www.linkedin.com/in/bb/",
+				"url": "https://in.linkedin.com/in/gurucharan94",
 				"linkType": "LinkedIn"
 			  },
 			  {
 				"title": "Blog",
-				"url": "ccc",
+				"url": "https://medium.com/@gurucharan94",
 				"linkType": "Blog"
 			  }
-		]
-	}
+			],
+		  },
 	];
 
-	var organizers =  [ { 						           
-		fullName: "Sanjeev Sharma",
-		bio: null,
-		tagLine: "ABB India Head [KeyNote]",
-		profilePicture: "assets/images/2019/Sanjeev.jpg",  
-		isTopSpeaker: false,
-		links: [
-			{
-				"title": "Twitter",
-				"url": "https://twitter.com/aaa",
-				"linkType": "Twitter"
-			  },
-			  {
-				"title": "LinkedIn",
-				"url": "https://www.linkedin.com/in/bb/",
-				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "ccc",
-				"linkType": "Blog"
-			  }
-		]
-	}
+	var organizers =  [	{
+		"firstName": "Gurucharan",
+		"lastName": "Subramani",
+		"fullName": "Gurucharan Subramani",
+		"bio": null,
+		"tagLine": "E-Mobility @ ABB | Member of the .NET Foundation | Azure Community Buff",
+		"profilePicture": "https://sessionize.com/image?f=b271088f16d3aa03897e252bbb5f621c,400,400,True,False,c9-0b72-4e13-aebb-6c0a0598d216.9f4d512f-da3d-4d36-a5f7-4c1a709bd8ea.jpeg",
+		"isTopSpeaker": true,
+		"links": [
+		  {
+			"title": "Twitter",
+			"url": "https://www.twitter.com/gurucharan94",
+			"linkType": "Twitter"
+		  },
+		  {
+			"title": "LinkedIn",
+			"url": "https://in.linkedin.com/in/gurucharan94",
+			"linkType": "LinkedIn"
+		  },
+		  {
+			"title": "Blog",
+			"url": "https://medium.com/@gurucharan94",
+			"linkType": "Blog"
+		  }
+		],
+	  },
 	];
 	var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
 	speakers = {speakers: speakers};
