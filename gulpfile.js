@@ -5,14 +5,11 @@ var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
-var pkg = require('./package.json');
 var concat = require('gulp-concat');
 
 
 // Set the banner content
 var banner = ['/*!\n',
-    ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-    ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
     ' * Licensed under MIT License\n',
     ' */\n',
     ''
@@ -23,7 +20,6 @@ var banner = ['/*!\n',
 gulp.task('less', function() {
     return gulp.src('less/creative.less')
         .pipe(less())
-        .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('css'))
         .pipe(browserSync.reload({
             stream: true
@@ -75,7 +71,6 @@ gulp.task('concat-js',['minify-js'], function() {
                 './js/contact_me.min.js'
             ])
     .pipe(concat('portfolio.min.js'))
-    .pipe(header(banner, { pkg: pkg }))
     .pipe(gulp.dest('./dist/js'))
 })
 

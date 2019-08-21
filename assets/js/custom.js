@@ -53,33 +53,65 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 (function ($) {
 
 
-	$.getJSON( "https://sessionize.com/api/v2/2py77bzz/view/Speakers",	function(speakers) {
-		var organizers = speakers.filter(function(speaker) {
-			return speaker["isTopSpeaker"] == true; // works for now
-		});					
+	var speakers = [ { 						           
+		fullName: "Sanjeev Sharma",
+		tagLine: "ABB India Head [KeyNote]",
+		profilePicture: "assets/images/2019/Sanjeev.jpg",  
+		links: [
+			{
+				"title": "Twitter",
+				"url": "https://twitter.com/aaa",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/bb/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "ccc",
+				"linkType": "Blog"
+			  }
+		]
+	}
+	];
 
-		var keynoteSpeakers = { 						           
-				fullName: "Sanjeev Sharma",
-				bio: null,
-				tagLine: "ABB India Head [KeyNote]",
-				profilePicture: "assets/images/2019/Sanjeev.jpg",  
-				isTopSpeaker: false,
-				links: []
-			};
-		
-		speakers.unshift(keynoteSpeakers);
+	var organizers =  [ { 						           
+		fullName: "Sanjeev Sharma",
+		bio: null,
+		tagLine: "ABB India Head [KeyNote]",
+		profilePicture: "assets/images/2019/Sanjeev.jpg",  
+		isTopSpeaker: false,
+		links: [
+			{
+				"title": "Twitter",
+				"url": "https://twitter.com/aaa",
+				"linkType": "Twitter"
+			  },
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/bb/",
+				"linkType": "LinkedIn"
+			  },
+			  {
+				"title": "Blog",
+				"url": "ccc",
+				"linkType": "Blog"
+			  }
+		]
+	}
+	];
+	var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
+	speakers = {speakers: speakers};
+	var featuredSpeakerList = featuredSpeakertemplate(speakers);
+	$("#dvFeaturedSpeakers").html(featuredSpeakerList);
 
-		var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
-		speakers = {speakers: speakers};
-		var featuredSpeakerList = featuredSpeakertemplate(speakers);
-		$("#dvFeaturedSpeakers").html(featuredSpeakerList);
+	var organizersTemplate = Handlebars.compile($("#organizersTemplate").html());
+	organizers = {organizers: organizers};
+	var organizersList = organizersTemplate(organizers);
+	$("#dvorganizers").append(organizersList);
 
-		var organizersTemplate = Handlebars.compile($("#organizersTemplate").html());
-		organizers = {organizers: organizers};
-		var organizersList = organizersTemplate(organizers);
-		$("#dvorganizers").append(organizersList);
-}
-);
 	
 	jQuery(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 150) {
