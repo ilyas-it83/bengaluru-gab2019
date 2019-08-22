@@ -59,24 +59,15 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"fullName": "Gurucharan Subramani",
 			"bio": null,
 			"tagLine": "Azure, DevOps, IoT at ABB",
-			"profilePicture": "",
+			"profilePicture": "./assets/images/speakers/guru.jpg",
 			"isTopSpeaker": true,
 			"links": [
-			  {
-				"title": "Twitter",
-				"url": "https://www.twitter.com/gurucharan94",
-				"linkType": "Twitter"
-			  },
+			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://in.linkedin.com/in/gurucharan94",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "https://medium.com/@gurucharan94",
-				"linkType": "Blog"
-			  }
+			  }			 
 			],
 		  },
 		  {
@@ -87,21 +78,13 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"profilePicture": "./assets/images/speakers/ilyas.png",
 			"isTopSpeaker": true,
 			"links": [
-			  {
-				"title": "Twitter",
-				"url": "https://www.twitter.com/ilyas_tweets",
-				"linkType": "Twitter"
-			  },
+			
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/ilyasf/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "http://bornoncloud.com/",
-				"linkType": "Blog"
 			  }
+			 
 			],
 		  },
 		  {
@@ -111,21 +94,11 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"tagLine": "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies",
 			"profilePicture": "./assets/images/speakers/neependra.jpg",
 			"isTopSpeaker": true,
-			"links": [
-			  {
-				"title": "Twitter",
-				"url": "#",
-				"linkType": "Twitter"
-			  },
+			"links": [			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/neependra/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "#",
-				"linkType": "Blog"
 			  }
 			],
 		  },
@@ -136,21 +109,11 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"tagLine": "AI Enthusiast, an Aspiring Data Scientist & a Cloud Practitioner. Driving Digital Transformation for Customers in India.",
 			"profilePicture": "./assets/images/speakers/sandeep.jpeg",
 			"isTopSpeaker": true,
-			"links": [
-			  {
-				"title": "Twitter",
-				"url": "#",
-				"linkType": "Twitter"
-			  },
+			"links": [			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/sandeepalur/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "#",
-				"linkType": "Blog"
 			  }
 			],
 		  },
@@ -162,21 +125,13 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
 			"isTopSpeaker": true,
 			"links": [
-			  {
-				"title": "Twitter",
-				"url": "https://twitter.com/svswaminathan",
-				"linkType": "Twitter"
-			  },
+			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/swaminathanvetri/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "https://wannabeegeek.com/",
-				"linkType": "Blog"
 			  }
+			 
 			],
 		  },
 		  {
@@ -186,22 +141,12 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"tagLine": "Senior PM .NET",
 			"profilePicture": "./assets/images/speakers/nish.jpg",
 			"isTopSpeaker": true,
-			"links": [
-			  {
-				"title": "Twitter",
-				"url": "https://twitter.com/nishanil",
-				"linkType": "Twitter"
-			  },
+			"links": [			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/nanil/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "https://blog.nishanil.com/",
-				"linkType": "Blog"
-			  }
+			  }			 
 			],
 		  },
 		  {
@@ -212,21 +157,13 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"profilePicture": "./assets/images/speakers/Ritesh.jpg",
 			"isTopSpeaker": true,
 			"links": [
-			  {
-				"title": "Twitter",
-				"url": "#",
-				"linkType": "Twitter"
-			  },
+			 
 			  {
 				"title": "LinkedIn",
 				"url": "https://www.linkedin.com/in/ritesh-modi/",
 				"linkType": "LinkedIn"
-			  },
-			  {
-				"title": "Blog",
-				"url": "#",
-				"linkType": "Blog"
 			  }
+			
 			],
 		  }
 	];
@@ -236,25 +173,17 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		"lastName": "Subramani",
 		"fullName": "Gurucharan Subramani",
 		"bio": null,
-		"tagLine": "E-Mobility @ ABB | Member of the .NET Foundation | Azure Community Buff",
-		"profilePicture": "",
+		"tagLine": "Azure, DevOps, IoT at ABB",
+		"profilePicture": "./assets/images/speakers/guru.jpg",
 		"isTopSpeaker": true,
 		"links": [
-		  {
-			"title": "Twitter",
-			"url": "https://www.twitter.com/gurucharan94",
-			"linkType": "Twitter"
-		  },
+		 
 		  {
 			"title": "LinkedIn",
 			"url": "https://in.linkedin.com/in/gurucharan94",
 			"linkType": "LinkedIn"
-		  },
-		  {
-			"title": "Blog",
-			"url": "https://medium.com/@gurucharan94",
-			"linkType": "Blog"
 		  }
+		
 		],
 	  },
 	  {
@@ -265,21 +194,13 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		"profilePicture": "./assets/images/speakers/ilyas.png",
 		"isTopSpeaker": true,
 		"links": [
-		  {
-			"title": "Twitter",
-			"url": "https://www.twitter.com/ilyas_tweets",
-			"linkType": "Twitter"
-		  },
+		 
 		  {
 			"title": "LinkedIn",
 			"url": "https://www.linkedin.com/in/ilyasf/",
 			"linkType": "LinkedIn"
-		  },
-		  {
-			"title": "Blog",
-			"url": "http://bornoncloud.com/",
-			"linkType": "Blog"
 		  }
+		
 		],
 	  },
 	  {
@@ -290,20 +211,11 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
 		"isTopSpeaker": true,
 		"links": [
-		  {
-			"title": "Twitter",
-			"url": "https://twitter.com/svswaminathan",
-			"linkType": "Twitter"
-		  },
+		 
 		  {
 			"title": "LinkedIn",
 			"url": "https://www.linkedin.com/in/swaminathanvetri/",
 			"linkType": "LinkedIn"
-		  },
-		  {
-			"title": "Blog",
-			"url": "https://wannabeegeek.com/",
-			"linkType": "Blog"
 		  }
 		],
 	  }
