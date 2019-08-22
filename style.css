@@ -1015,7 +1015,7 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg"); 
+	/* background-image: url("assets/images/register-bg.jpg");  */
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1026,7 +1026,7 @@ button:focus {
 }
 
 #mu-register::before {
-	background: rgba(0,0,0,0.9);
+	/* background: rgba(0,0,0,0.9); */
 	bottom: 0;
 	content: '';
 	left: 0;
@@ -1045,7 +1045,7 @@ button:focus {
 
 .mu-register-area .mu-title,
 .mu-register-area p {
-	color: #fff;
+	color: rgb(15, 15, 15);
 }
 
 .mu-register-content {

@@ -159,12 +159,12 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"fullName": "Swaminathan Vetri",
 			"bio": null,
 			"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
-			"profilePicture": "./assets/images/speakers/swami.jpg",
+			"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
 			"isTopSpeaker": true,
 			"links": [
 			  {
 				"title": "Twitter",
-				"url": "#",
+				"url": "https://twitter.com/svswaminathan",
 				"linkType": "Twitter"
 			  },
 			  {
@@ -174,7 +174,7 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			  },
 			  {
 				"title": "Blog",
-				"url": "#",
+				"url": "https://wannabeegeek.com/",
 				"linkType": "Blog"
 			  }
 			],
@@ -189,7 +189,7 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			"links": [
 			  {
 				"title": "Twitter",
-				"url": "#",
+				"url": "https://twitter.com/nishanil",
 				"linkType": "Twitter"
 			  },
 			  {
@@ -199,7 +199,7 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 			  },
 			  {
 				"title": "Blog",
-				"url": "#",
+				"url": "https://blog.nishanil.com/",
 				"linkType": "Blog"
 			  }
 			],
@@ -287,12 +287,12 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		"fullName": "Swaminathan Vetri",
 		"bio": null,
 		"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
-		"profilePicture": "./assets/images/speakers/swami.jpg",
+		"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
 		"isTopSpeaker": true,
 		"links": [
 		  {
 			"title": "Twitter",
-			"url": "#",
+			"url": "https://twitter.com/svswaminathan",
 			"linkType": "Twitter"
 		  },
 		  {
@@ -302,7 +302,7 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 		  },
 		  {
 			"title": "Blog",
-			"url": "#",
+			"url": "https://wannabeegeek.com/",
 			"linkType": "Blog"
 		  }
 		],
