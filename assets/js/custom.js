@@ -53,23 +53,7 @@ Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Cor
 (function ($) {
 
 
-	var speakers = [ 
-		{
-			
-			"fullName": "Gurucharan Subramani",
-			"bio": null,
-			"tagLine": "Azure, DevOps, IoT at ABB",
-			"profilePicture": "./assets/images/speakers/guru.jpg",
-			"isTopSpeaker": true,
-			"links": [
-			 
-			  {
-				"title": "LinkedIn",
-				"url": "https://in.linkedin.com/in/gurucharan94",
-				"linkType": "LinkedIn"
-			  }			 
-			],
-		  },
+	var speakers = [		
 		  {
 			
 			"fullName": "Ilyas F",
