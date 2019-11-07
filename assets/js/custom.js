@@ -17,57 +17,204 @@
 	
 	
 **/
+$("#DateCountdown").TimeCircles({
+	animation: "smooth",
+	bg_width: 0.3,
+	fg_width: 0.03333333333333333,
+	circle_bg_color: "#60686F",
+	time: {
+	  Days: {
+		text: "Days",
+		color: "#FFCC66",
+		show: true
+	  },
+	  Hours: {
+		text: "Hours",
+		color: "#99CCFF",
+		show: true
+	  },
+	  Minutes: {
+		text: "Minutes",
+		color: "#BBFFBB",
+		show: true
+	  },
+	  Seconds: {
+		text: "Seconds",
+		color: "#FF9999",
+		show: true
+	  }
+	}
+});
 
-
+Handlebars.registerHelper("ifEquals", function(arg1, arg2, options) { // Use Correct Social Media Icon Link for Speakers
+	return arg1 == arg2 ? options.fn(this) : options.inverse(this);
+});
 
 (function ($) {
 
 
+	var speakers = [		
+		  {
+			
+			"fullName": "Ilyas F",
+			"bio": null,
+			"tagLine": "IoT Evangelist at ABB",
+			"profilePicture": "./assets/images/speakers/ilyas.png",
+			"isTopSpeaker": true,
+			"links": [
+			
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/ilyasf/",
+				"linkType": "LinkedIn"
+			  }
+			 
+			],
+		  },
+		  {
+			
+			"fullName": "Neependra Khare",
+			"bio": null,
+			"tagLine": "Founder at CloudYuga, CNCF Ambassador, Corporate Trainer on Container Technologies",
+			"profilePicture": "./assets/images/speakers/neependra.jpg",
+			"isTopSpeaker": true,
+			"links": [			 
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/neependra/",
+				"linkType": "LinkedIn"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Sandeep Alur",
+			"bio": null,
+			"tagLine": "AI Enthusiast, an Aspiring Data Scientist & a Cloud Practitioner. Driving Digital Transformation for Customers in India.",
+			"profilePicture": "./assets/images/speakers/sandeep.jpeg",
+			"isTopSpeaker": true,
+			"links": [			 
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/sandeepalur/",
+				"linkType": "LinkedIn"
+			  }
+			],
+		  },
+		  {
+			
+			"fullName": "Swaminathan Vetri",
+			"bio": null,
+			"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
+			"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			 
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/swaminathanvetri/",
+				"linkType": "LinkedIn"
+			  }
+			 
+			],
+		  },
+		  {
+			
+			"fullName": "Nish Anil",
+			"bio": null,
+			"tagLine": "Senior PM .NET",
+			"profilePicture": "./assets/images/speakers/nish.jpg",
+			"isTopSpeaker": true,
+			"links": [			 
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/nanil/",
+				"linkType": "LinkedIn"
+			  }			 
+			],
+		  },
+		  {
+			
+			"fullName": "Ritesh Modi",
+			"bio": null,
+			"tagLine": "Hon. Microsoft Regional Director, Author of 8 Best Seller books on Blockchain, Azure, Bots and DevOps",
+			"profilePicture": "./assets/images/speakers/Ritesh.jpg",
+			"isTopSpeaker": true,
+			"links": [
+			 
+			  {
+				"title": "LinkedIn",
+				"url": "https://www.linkedin.com/in/ritesh-modi/",
+				"linkType": "LinkedIn"
+			  }
+			
+			],
+		  }
+	];
 
-	// var source = $("#speakersTemplate").html();
-	// var template = Handlebars.compile(source);
+	var organizers =  [	{
+		"firstName": "Gurucharan",
+		"lastName": "Subramani",
+		"fullName": "Gurucharan Subramani",
+		"bio": null,
+		"tagLine": "Azure, DevOps, IoT at ABB",
+		"profilePicture": "./assets/images/speakers/guru.jpg",
+		"isTopSpeaker": true,
+		"links": [
+		 
+		  {
+			"title": "LinkedIn",
+			"url": "https://in.linkedin.com/in/gurucharan94",
+			"linkType": "LinkedIn"
+		  }
+		
+		],
+	  },
+	  {
+			
+		"fullName": "Ilyas F",
+		"bio": null,
+		"tagLine": "IoT Evangelist at ABB",
+		"profilePicture": "./assets/images/speakers/ilyas.png",
+		"isTopSpeaker": true,
+		"links": [
+		 
+		  {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/ilyasf/",
+			"linkType": "LinkedIn"
+		  }
+		
+		],
+	  },
+	  {
+			
+		"fullName": "Swaminathan Vetri",
+		"bio": null,
+		"tagLine": "Technical Architect at Maersk Global Service Centres | Microsoft MVP",
+		"profilePicture": "./assets/images/speakers/Swami_Latest.jpg",
+		"isTopSpeaker": true,
+		"links": [
+		 
+		  {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/swaminathanvetri/",
+			"linkType": "LinkedIn"
+		  }
+		],
+	  }
+	];
+	var featuredSpeakertemplate = Handlebars.compile($("#featuredSpeakerTemplate").html());
+	speakers = {speakers: speakers};
+	var featuredSpeakerList = featuredSpeakertemplate(speakers);
+	$("#dvFeaturedSpeakers").html(featuredSpeakerList);
 
-	// $(".mu-speakers-slider").html(template(speakerData));
+	var organizersTemplate = Handlebars.compile($("#organizersTemplate").html());
+	organizers = {organizers: organizers};
+	var organizersList = organizersTemplate(organizers);
+	$("#dvorganizers").append(organizersList);
 
 	
-
-	var keynoteSource = $("#keynoteTemplate").html();
-	var keynotetemplate = Handlebars.compile(keynoteSource);
-
-	$(".mu-keynote-slider").html(keynotetemplate(keynoteData));
-	
-	var featuredSpeakerSource = $("#featuredSpeakerTemplate").html();
-	var featuredSpeakertemplate = Handlebars.compile(featuredSpeakerSource);
-
-	$("#dvFeaturedSpeakers").html(featuredSpeakertemplate(featuredSpeakerData));
-
-
-	var day1DevAgendaSource = $("#day1DevAgendaTemplate").html();
-	var day1DevAgendaTemplate = Handlebars.compile(day1DevAgendaSource);
-	$("#ulDay1DevAgendaTemplate").html(day1DevAgendaTemplate(day1AgendaData));
-
-	var day1DevOSSAgendaSource = $("#day1DevOSSAgendaTemplate").html();
-	var day1DevOSSAgendaTemplate = Handlebars.compile(day1DevOSSAgendaSource);
-	$("#ulDay1DevOSSAgendaTemplate").html(day1DevOSSAgendaTemplate(day1AgendaData));
-	
-	var day1ItProAgendaSource = $("#day1ItProAgendaTemplate").html();
-	var day1ItProAgendaTemplate = Handlebars.compile(day1ItProAgendaSource);
-	$("#ulDay1ItProAgendaTemplate").html(day1ItProAgendaTemplate(day1AgendaData));
-	
-	var day1SharepointAgendaSource = $("#day1SharepointAgendaTemplate").html();
-	var day1SharepointAgendaTemplate = Handlebars.compile(day1SharepointAgendaSource);
-	$("#ulDay1SharepointAgendaTemplate").html(day1SharepointAgendaTemplate(day1AgendaData));
-
-
-	var day1OfficeAgendaSource = $("#day1OfficeAgendaTemplate").html();
-	var day1OfficeAgendaTemplate = Handlebars.compile(day1OfficeAgendaSource);
-	$("#ulDay1OfficeAgendaTemplate").html(day1OfficeAgendaTemplate(day1AgendaData));
-
-	/* ----------------------------------------------------------- */
-	/*  1. FIXED MENU
-	/* ----------------------------------------------------------- */
-
-
 	jQuery(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 150) {
 			$('.mu-navbar').addClass('mu-nav-show');
@@ -77,18 +224,6 @@
 		}
 	});
 
-	/* ----------------------------------------------------------- */
-	/*  2. EVENT TIME COUNTER
-	/* ----------------------------------------------------------- */
-
-	$('#mu-event-counter').countdown('2018/02/02').on('update.countdown', function (event) {
-
-		var $this = $(this).html(event.strftime(''
-			+ '<span class="mu-event-counter-block"><span>%D</span> Days</span> '
-			+ '<span class="mu-event-counter-block"><span>%H</span> Hours</span> '
-			+ '<span class="mu-event-counter-block"><span>%M</span> Mins</span> '
-			+ '<span class="mu-event-counter-block"><span>%S</span> Secs</span>'));
-	});
 
 
 	/* ----------------------------------------------------------- */
@@ -142,98 +277,7 @@
 				.end().filter("[href=\\#" + id + "]").parent().addClass("active");
 		}
 	})
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  4. VIDEO POPUP
-	/* ----------------------------------------------------------- */
-
-	$('.mu-video-play-btn').on('click', function (event) {
-
-		event.preventDefault();
-
-		$('.mu-video-iframe-area').addClass('mu-video-iframe-display');
-
-	});
-
-	// when click the close btn
-
-	// disappear iframe window
-
-	$('.mu-video-close-btn').on('click', function (event) {
-
-		event.preventDefault();
-
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
-
-	});
-
-	// stop iframe if it is play while close the iframe window
-
-	$('.mu-video-close-btn').click(function () {
-
-		$('.mu-video-iframe').attr('src', $('.mu-video-iframe').attr('src'));
-
-	});
-
-	// when click overlay area
-
-	$('.mu-video-iframe-area').on('click', function (event) {
-
-		event.preventDefault();
-
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
-
-	});
-
-	$('.mu-video-iframe-area, .mu-video-iframe').on('click', function (e) {
-		e.stopPropagation();
-	});
-
-
-	/* ----------------------------------------------------------- */
-	/*  5. SPEAKERS SLIDEER ( SLICK SLIDER )
-	/* ----------------------------------------------------------- */
-
-	$('.mu-speakers-slider').slick({
-		slidesToShow: 4,
-		responsive: [
-			{
-				breakpoint: 768,
-				settings: {
-					arrows: true,
-					slidesToShow: 3
-				}
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					arrows: true,
-					slidesToShow: 1
-				}
-			}
-		]
-	});
-
-
-
-
-
-	/* ----------------------------------------------------------- */
-	/*  6. BOOTSTRAP ACCORDION 
-	/* ----------------------------------------------------------- */
-
-	/* Start for accordion #1*/
-	$('#accordion .panel-collapse').on('shown.bs.collapse', function () {
-		$(this).prev().find(".fa").removeClass("fa-angle-up").addClass("fa-angle-down");
-	});
-
-	//The reverse of the above on hidden event:
-
-	$('#accordion .panel-collapse').on('hidden.bs.collapse', function () {
-		$(this).prev().find(".fa").removeClass("fa-angle-down").addClass("fa-angle-up");
-	});
+	
 
 
 	/* ----------------------------------------------------------- */
@@ -243,64 +287,4 @@
 	jQuery('.mu-menu').on('click', 'li a', function () {
 		$('.mu-navbar .in').collapse('hide');
 	});
-
-
-
-	// var div = document.createElement("div");
-
-	// document.getElementsByTagName('body')[0].appendChild(div);
-	// div.outerHTML = "<div  id='botDiv'  style='margin-left:80%; height: 38px; position: fixed; bottom: 0; z-index: 1000; background-color: #fff'><div id='botTitleBar' style='height: 38px; width: 250px; position:fixed; cursor: pointer;'></div><iframe width='250px' height='400px' src='https://webchat.botframework.com/embed/mvpconfbot_HFDddVnjHWr?s=sgfp1RLelXk.cwA.4u8.zGpyx65YNM6UyQaRJQW3TL6HghkDz4dn8l248NtRQBI'></iframe></div>";
-
-	// document.querySelector('body').addEventListener('click', function (e) {
-	// 	e.target.matches = e.target.matches || e.target.msMatchesSelector;
-	// 	if (e.target.matches(style = '#botTitleBar')) {
-	// 		var botDiv = document.querySelector('#botDiv');
-	// 		botDiv.style.height = botDiv.style.height == '400px' ? '38px' : '400px';
-	// 	};
-	// });
-
-
-
-	$("#chat-bot .bot-header").click(function (e) {
-		e.preventDefault();
-		var t = $("#chat-bot");
-		parseInt(t.css("bottom").substring(0, t.css("bottom").lastIndexOf("px"))) < -100 && ($("#chat-bot").animate({
-			bottom: "-5px"
-		}), $("#chat-bot .bot-header button").show(), $(this).removeClass("hvr-bob-hover"))
-	});
-
-	$("#chat-bot .bot-header .btn-min").click(function () {
-		$("#chat-bot").animate({
-			bottom: "-523px"
-		}), $("#chat-bot .bot-header button").hide(), $("#chat-bot .bot-header").addClass("hvr-bob-hover")
-	});
-
-	$("#chat-bot .bot-header .btn-refresh").click(function () { });
-
-	$(".round, .minimize").click(function () {
-		$(".chatContainer").toggleClass("chatContainer-rotate")
-	});
-
-	$(".clear-re").click(function () {
-		$(".app-container iframe").attr("src", $(".app-container iframe").attr("src"));
-	});
-
-	$('#botDiv').load(function() {
-
-		$("#botDiv").contents().find(".wc-header").hide();
-	});
-	
-	
-	 $("form#frmSignup button#btnSignupForUpdates").bind("click",function(){
-	 	var emailAddress = $("form#frmSignup input#txtEmailAddress").val();
-	 	remoteServices.OnSignupForUpdates(emailAddress);
-	 });
-
-	 $("#btnViewAllSpeakers").bind("click",function(){
-		window.location="speakers.html";
-	 });
 })(jQuery);
-
-
-
-
